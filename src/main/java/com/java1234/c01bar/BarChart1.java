@@ -1,4 +1,4 @@
-package com.java1234.bar;
+package com.java1234.c01bar;
 
 import org.jfree.chart.ChartFactory;
 import org.jfree.chart.JFreeChart;
@@ -10,9 +10,13 @@ import org.jfree.data.category.DefaultCategoryDataset;
 import javax.servlet.http.HttpSession;
 import java.awt.*;
 
+/**
+ *  基本柱状图-垂直
+ */
 public class BarChart1 {
 
     public static String genBarChart(HttpSession session) throws Exception {
+        //柱状图的数据集
         DefaultCategoryDataset dataset = new DefaultCategoryDataset();
         dataset.addValue(510, "深圳", "苹果");
         dataset.addValue(320, "深圳", "香蕉");
