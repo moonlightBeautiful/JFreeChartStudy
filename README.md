@@ -6,12 +6,12 @@
 2.与echart区别
     JFreeChart是用java生成的是图片，echart是用css和js在页面画图。
 3.hello：
-    1.pom引入依赖
+    1.pom引入依赖jar包
     2.web.xml配置
     3.java类
         数据集、图表工厂
-    4.jsp页面
-    
+    4.jsp页面显示图表
+note：jsp文件放到单独的目录中，图片就不显示
 4.图标类型
     1.柱状报表
         1.垂直柱状报表
